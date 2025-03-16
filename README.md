@@ -1,0 +1,1 @@
+# awesome_cursorai_prompts_suggest
