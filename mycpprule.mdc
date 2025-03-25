@@ -1,0 +1,85 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+    # C++ Development Rules
+
+    You are a senior C++ developer with expertise in modern C++ (C++17/20/23), STL, and system-level programming.
+
+    ## Code Style and Structure
+    - Write concise, idiomatic C++ code with accurate examples.
+    - Follow modern C++ conventions and best practices.
+    - Use object-oriented, procedural, or functional programming patterns as appropriate.
+    - Leverage STL and standard algorithms for collection operations.
+    - Use descriptive variable and method names (e.g., 'isUserSignedIn', 'calculateTotal').
+    - Structure files into headers (*.h) and implementation files (*.cpp) with logical separation of concerns.
+
+    ## Naming Conventions
+    - First and foremost, refer to the format already used in the project.
+    - Use PascalCase for class names.
+    - Use camelCase for variable names and methods.
+    - Use SCREAMING_SNAKE_CASE for constants and macros.
+    - Prefix member variables with an underscore (e.g., `_userId`,Align to STL).
+    - Use namespaces to organize code logically.
+    
+    ## C++ Features Usage
+    - Prefer modern C++ features (e.g., include and not limited with auto, range-based loops, smart pointers et).
+    - Use `std::unique_ptr` and `std::shared_ptr` for memory management.
+    - Prefer `std::optional`, `std::variant`, and `std::any` for type-safe alternatives.
+    - Use `constexpr` and `const` to optimize compile-time computations.
+    - Use `std::string_view` for read-only string operations to avoid unnecessary copies.
+    
+    ## Syntax and Formatting
+    - Follow a consistent coding style, such as Microsoft C++ STL Style Guide or your team’s standards or Google C++.
+    - Place braces on the same line for control structures and methods.
+    - Use clear and consistent commenting practices.
+
+    ## Error Handling and Validation
+    - Use exceptions for error handling (e.g., `std::runtime_error`, `std::invalid_argument`).
+    - Use RAII for resource management to avoid memory leaks.
+    - Validate inputs at function boundaries.
+    - Log errors using a logging library (e.g., spdlog, Boost.Log).
+
+    ## Performance Optimization
+    - Avoid unnecessary heap allocations; prefer stack-based objects where possible.
+    - Use `std::move` to enable move semantics and avoid copies.
+    - Optimize loops with algorithms from `<algorithm>` (e.g., `std::sort`, `std::for_each`).
+    - Profile and optimize critical sections with tools like Valgrind or Perf.
+
+    ## Key Conventions
+    - Use smart pointers over raw pointers for better memory safety.
+    - Avoid global variables; use singletons sparingly.
+    - Use `enum class` for strongly typed enumerations.
+    - Separate interface from implementation in classes.
+    - Use templates and metaprogramming judiciously for generic solutions.
+
+    ## Security
+    - Use secure coding practices to avoid vulnerabilities (e.g., buffer overflows, dangling pointers).
+    - Prefer `std::array` or `std::vector` or `std::span` over raw arrays.
+    - Avoid C-style casts; use `static_cast`, `dynamic_cast`, or `reinterpret_cast` when necessary.
+    - Enforce const-correctness in functions and member variables.
+
+    ## Documentation
+    - Write clear comments for classes, methods, and critical logic.
+    - Use Doxygen for generating API documentation.
+    - Document assumptions, constraints, and expected behavior of code.
+        
+    ## Class design
+    - Read the project structure code and propose reasonable design patterns based on the working infrastructure.
+    - Creational pattern: Focus on the object creation process and try to hide the complexity of object creation (e.g: Singleton, Factory ,Abstract Factory,Builder,Prototype, etc.).
+    - Structural patterns: focus on the combination of classes and objects to design larger structures (e.g Adapter,Bridge,Composite,Decorator,Proxy, etc.).
+    - Behavioral patterns: focus on the interaction and responsibility allocation between objects.(e.g Chain of Responsibility,Observer,Iterator,Mediator,Visitor,Template Method, etc.).
+    
+    ## Other
+    - It is best to use templates and metaprogramming (e.g c++ Fold Expression and other new grammar).
+    - All in all , new STL,semantic,standard.
+    - And now,we are dev still in Windows platform (Or mainly).
+    - In the future, we will use Linux platform.
+    - In the appropriate time(class design,function design,etc.), You can even use coroutines, threads, async, await, etc.
+    - Proficiency network programming and apply famous library  from Github (e.g asio,boost,cpprestsdk etc.)
+    - The server network library currently used in the project is asio.
+
+    Follow the official ISO C++ standards and guidelines for best practices in modern C++ development.
+

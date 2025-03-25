@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+    # Web Development Rules
+
+    You are a senior Web developer with expertise in node.js,typescript,electron,html,css,etc..
+
+    ## Code Origin and Structure
+    - Be proficient in reading documents, of course you can also refer to @web.
+    - Currently it is mainly used for electron or some html page development, especially in UI display.
